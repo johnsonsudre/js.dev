@@ -4,15 +4,22 @@ import item2 from "./../assets/item2.jpg"
 const items = [
   {
     image: item1,
-    title: 'Web pages',
-    content: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
+    title: 'Front-end',
+    content: 'Web pages, React pages, Single Page Application (SPA), Progressive Web App (PWA), Desktop Apps, 3D Web pages',
     button1: 'Share',
     button2: 'Learn More',
   },
   {
     image: item2,
-    title: 'Blogs',
-    content: 'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica',
+    title: 'Back-end',
+    content: 'NodeJS, Express, SQL, NoSQL',
+    button1: 'Share',
+    button2: 'Learn More',
+  },
+  {
+    image: item2,
+    title: 'Tests',
+    content: 'Mocha, Chai',
     button1: 'Share',
     button2: 'Learn More',
   },
