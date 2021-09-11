@@ -12,11 +12,13 @@ import { Collapse } from '@material-ui/core';
 const useStyles = makeStyles({
   root: {
     maxWidth: 400,
+    height: 600,
     background: '#00a4c555',
     margin: '20px'
   },
   media: {
     height: 340,
+    minWidth: 540,
   },
   title: {
     fontFamily: 'Nunito',

@@ -8,9 +8,10 @@ const useStyles = makeStyles((theme) => ({
   root: {
     minHeight: '100vh',
     display: 'flex',
+    flexWrap: "wrap",
     justifyContent: 'center',
     alignItems: 'center',
-    [theme.breakpoints.down('md')]: { flexDirection: 'column' }
+    [theme.breakpoints.down('md')]: { flexDirection: 'column' },
   }
 }))
 
@@ -24,6 +25,12 @@ function ItemsToVisit() {
   return <div className={classes.root} id='item-to-visit'>
     <ItemsCard item={items[0]} checked={checked} />
     <ItemsCard item={items[1]} checked={checked} />
+    <ItemsCard item={items[2]} checked={checked} />
+    <ItemsCard item={items[3]} checked={checked} />
+    <ItemsCard item={items[0]} checked={checked} />
+    <ItemsCard item={items[1]} checked={checked} />
+    <ItemsCard item={items[2]} checked={checked} />
+    <ItemsCard item={items[3]} checked={checked} />
   </div>
 }
 
