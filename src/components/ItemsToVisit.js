@@ -1,7 +1,7 @@
 import { makeStyles } from "@material-ui/core";
 import React from "react";
-import ItemsCard from "./ItemsCard";
-import items from '../static/items'
+import ItemCard from "./ItemCard";
+import catalog from '../static/dataClient/products/catalog'
 import useWindowPosition from '../hooks/useWindowPosition'
 
 const useStyles = makeStyles((theme) => ({
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   }
 }))
 
-function ItemsToVisit() {
+const ItemsToVisit = () => {
   const classes = useStyles();
   const checked = useWindowPosition('header')
   //const [checked, setChecked] = useState(false);
@@ -23,14 +23,8 @@ function ItemsToVisit() {
   //   setChecked(true)
   // }, [])
   return <div className={classes.root} id='item-to-visit'>
-    <ItemsCard item={items[0]} checked={checked} />
-    <ItemsCard item={items[1]} checked={checked} />
-    <ItemsCard item={items[2]} checked={checked} />
-    <ItemsCard item={items[3]} checked={checked} />
-    <ItemsCard item={items[0]} checked={checked} />
-    <ItemsCard item={items[1]} checked={checked} />
-    <ItemsCard item={items[2]} checked={checked} />
-    <ItemsCard item={items[3]} checked={checked} />
+    {catalog.items.map((i) => <ItemCard item={i} checked={checked} />)}
+
   </div>
 }
 

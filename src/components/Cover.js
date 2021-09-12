@@ -3,6 +3,7 @@ import { Toolbar, AppBar, makeStyles, IconButton, Fade } from "@material-ui/core
 import SortIcon from '@material-ui/icons/Sort'
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import { Link as Scroll } from 'react-scroll'
+//import items from '../static/dataClient/products/items'
 
 
 const useStyles = makeStyles(() => ({
@@ -41,7 +42,7 @@ const useStyles = makeStyles(() => ({
   }
 }))
 
-function Header() {
+function Cover() {
   const classes = useStyles();
   const [checked, setChecked] = useState(false);
   useEffect(() => {
@@ -59,7 +60,7 @@ function Header() {
     <Fade
       in={checked}
       {...checked ? { timeout: 1000 } : {}}
-      collapsedSize={150}
+    //collapsedSize={150}
     >
 
       <div className={classes.container}>
@@ -80,4 +81,4 @@ function Header() {
   </div>
 }
 
-export default Header;
+export default Cover;

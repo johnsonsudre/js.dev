@@ -1,8 +1,8 @@
 //import './App.css';
 import React from "react";
 import { CssBaseline, Grid, makeStyles } from "@material-ui/core";
-import bg from "./assets/bg.jpg";
-import Header from './components/Header';
+import bg from "./static/dataClient/design/bg.jpg";
+import Cover from './components/Cover';
 import ItemsToVisit from "./components/ItemsToVisit";
 import Bounce from "./components/Bounce";
 
@@ -32,7 +32,7 @@ function App() {
   return <div className={classes.root}>
     <CssBaseline />
     <Bounce />
-    <Header />
+    <Cover />
     <ItemsToVisit />
     <Grid container className={classes.container}>
       <Grid item className={classes.item}>100</Grid>
