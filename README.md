@@ -2,18 +2,19 @@
 <div style="text-align:center">
 <h1><i>js.dev web site</i></h1>
 <h3>minimalist web site template</h3>
+
+|| <p> . [About](#about) . [Folder Structures](#folder-structures) . [Libraries & Frameworks](#libraries) . [Installation & Set Up](#installation) . [Start and Available Scripts](#start-and-available-scripts) . [License](#license) . </p> ||
+|-|:-:|-:|
+
   <img src='./src/assets/cover-mobile.JPG'>
 <img src='./src/assets/content-web.JPG'>
 </div>
-
-|| <p> . [About](#about) . [Folder Structures](#folder-structures) . [Libraries & Frameworks](#libraries-frameworks) . [Installation & Set Up](#installation-setup) . [Licence](#licence) . [Available Scripts](#available-scripts) . </p> ||
-|-|:-:|-:|
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## About
 
-This project implement a minimanilist web site with the duo react&material-ui and can be used as template.
+js.dev is a minimanilist website created with the duo *react&material-ui* and that can be used as a template.
 
 ## Folder Structures
 
@@ -29,7 +30,7 @@ This project implement a minimanilist web site with the duo react&material-ui an
                +--- products
                +--- themes
 ```
-
+<span id="libraries"></span>
 ## Libraries & Frameworks
 
 |Name| Description|
@@ -40,6 +41,7 @@ This project implement a minimanilist web site with the duo react&material-ui an
 |[Nodemon](https://www.npmjs.com/package/nodemon/) | A tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.|
 
 
+<span id="installation"></span>
 ## Installation & Set Up
 
 ##### - Cloning the project
@@ -83,6 +85,6 @@ Builds the app for production to the `build` folder.\
 - *[Igor Miske](https://unsplash.com/@igormiske)*
 - *[Markus Spiske](https://unsplash.com/@markusspiske)*
 
+## License
 
-
-.
+MIT © [Johnson Sudré](https://github.com/johnsonsudre)
