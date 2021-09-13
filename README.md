@@ -1,13 +1,13 @@
 
 <div style="text-align:center">
-<h1><i>js.dev web site</i></h1>
-<h3>minimalist web site template</h3>
+<h1 style="align:center"><i>js.dev web site</i></h1>
+<h3 style="align:center">minimalist web site template</h3>
 
-|| <p> . [About](#about) . [Folder Structures](#folder-structures) . [Libraries & Frameworks](#libraries) . [Installation & Set Up](#installation) . [Start and Available Scripts](#start-and-available-scripts) . [License](#license) . </p> ||
+|| <p style="align:center"> . [About](#about) . [Folder Structures](#folder-structures) . [Libraries & Frameworks](#libraries) . [Installation & Set Up](#installation) . [Start and Available Scripts](#start-and-available-scripts) . [License](#license) . </p> ||
 |-|:-:|-:|
 
-  <img src='./src/assets/cover-mobile.JPG'>
-<img src='./src/assets/content-web.JPG'>
+  <img style="text-align:center" src='./src/assets/cover-mobile.JPG'>
+<img style="text-align:center" src='./src/assets/content-web.JPG'>
 </div>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
