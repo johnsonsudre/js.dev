@@ -12,7 +12,9 @@ const useStyles = makeStyles((theme) => ({
     backgroundImage: `url(${bg})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: "100%",
-    backgroundColor: 'black'
+    backgroundColor: 'black',
+    backgroundPositionY: 0,
+    [theme.breakpoints.down('md')]: { backgroundPositionY: 320, },
   },
   container: {
     color: '#0aasb6',

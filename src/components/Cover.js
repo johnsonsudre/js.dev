@@ -6,7 +6,7 @@ import { Link as Scroll } from 'react-scroll'
 //import items from '../static/dataClient/products/items'
 
 
-const useStyles = makeStyles(() => ({
+const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     justifyContent: 'center',
@@ -16,7 +16,8 @@ const useStyles = makeStyles(() => ({
     color: '#eeeddd',
   },
   appBar: {
-    background: 'none',
+    background: 'black',
+
   },
   icon: {
     color: '#eeeddd',
@@ -27,7 +28,8 @@ const useStyles = makeStyles(() => ({
   title: {
     color: '#eeeddd',
     fontSize: '4.5rem',
-    marginTop: '-20rem'
+    marginTop: '-23rem',
+    [theme.breakpoints.down('md')]: { marginTop: '-8rem', fontSize: '2.5rem', },
   },
   container: {
     textAlign: 'center',
@@ -49,12 +51,16 @@ function Cover() {
     setChecked(true)
   }, [])
   return <div className={classes.root} id='header'>
-    <AppBar className={classes.appBar} elevation={0}>
+    <AppBar className={classes.appBar} elevation={6}>
       <Toolbar className={classes.appBarWrapper}>
-        <h1 className={classes.appBarTitle}>js<span className={classes.colorText}>.dev</span></h1>
-        <IconButton className={classes.icon}>
-          <SortIcon />
-        </IconButton>
+        <h1 className={classes.appBarTitle}>
+          js<span className={classes.colorText}>.dev</span>
+        </h1>
+        <Scroll to='item-to-visit' smooth={true}>
+          <IconButton className={classes.icon}>
+            <SortIcon />
+          </IconButton>
+        </Scroll>
       </Toolbar>
     </AppBar>
     <Fade

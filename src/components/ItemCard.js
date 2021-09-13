@@ -9,15 +9,17 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { Collapse } from '@material-ui/core';
 
-const useStyles = makeStyles({
+const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 400,
     height: 600,
+    [theme.breakpoints.down('md')]: { height: '85%', marginTop: '25%' },
     background: '#00a4c555',
     margin: '20px'
   },
   media: {
     height: 340,
+    [theme.breakpoints.down('md')]: { minWidth: 'inherit' },
     minWidth: 540,
   },
   title: {
@@ -31,7 +33,7 @@ const useStyles = makeStyles({
     fontSize: '1rem',
     color: '#ddd'
   }
-})
+}))
 
 const ItemsCard = ({ item, checked }) => {
 

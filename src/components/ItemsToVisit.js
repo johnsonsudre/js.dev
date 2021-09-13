@@ -11,7 +11,8 @@ const useStyles = makeStyles((theme) => ({
     flexWrap: "wrap",
     justifyContent: 'center',
     alignItems: 'center',
-    [theme.breakpoints.down('md')]: { flexDirection: 'column' },
+    paddingTop: '60px',
+    [theme.breakpoints.down('md')]: { flexDirection: 'column', paddingTop: '0px', },
   }
 }))
 
