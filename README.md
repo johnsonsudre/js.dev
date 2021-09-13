@@ -3,7 +3,7 @@
 <h1 style="align:center"><i>js.dev web site</i></h1>
 <h3 style="align:center">minimalist web site template</h3>
 
-|| <p style="align:center"> . [About](#about) . [Folder Structures](#folder-structures) . [Libraries & Frameworks](#libraries) . [Installation & Set Up](#installation) . [Start and Available Scripts](#start-and-available-scripts) . [License](#license) . </p> ||
+|| <p style="align:center"> . [About](#about) . [Folder Structures](#folder-structures) . [Libraries & Frameworks](#libraries) . [Installation & Set Up](#installation) . [Start and Available Scripts](#start-and-available-scripts) . [License](#license) . [Thanks](#thanks) . </p> ||
 |-|:-:|-:|
 
   <img style="text-align:center" src='./src/assets/cover-mobile.JPG'>
@@ -76,6 +76,10 @@ Builds the app for production to the `build` folder.\
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
+## License
+
+MIT © [Johnson Sudré](https://github.com/johnsonsudre)
+
 ## Thanks
 
 #### [Unsplash: Beautiful Free Images & Pictures](https://unsplash.com/)
@@ -84,7 +88,3 @@ Builds the app for production to the `build` folder.\
 - *[Emil Priver](https://unsplash.com/@emilpriver)*
 - *[Igor Miske](https://unsplash.com/@igormiske)*
 - *[Markus Spiske](https://unsplash.com/@markusspiske)*
-
-## License
-
-MIT © [Johnson Sudré](https://github.com/johnsonsudre)
