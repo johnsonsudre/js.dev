@@ -3,6 +3,10 @@
 <h1 style="align:center"><i>js.dev web site</i></h1>
 <h3 style="align:center">minimalist web site template</h3>
 
+##### Click [_js-dev.vercel.app_](https://js-dev.vercel.app/) to visit the web site in production!
+_deployed_ in Vercel.com
+
+
 || <p style="align:center"> . [About](#about) . [Folder Structures](#folder-structures) . [Libraries & Frameworks](#libraries) . [Installation & Set Up](#installation) . [Start and Available Scripts](#start-and-available-scripts) . [License](#license) . [Thanks](#thanks) . </p> ||
 |-|:-:|-:|
 
