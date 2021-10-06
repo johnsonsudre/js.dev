@@ -12,7 +12,7 @@ import { Collapse } from '@material-ui/core';
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 400,
-    height: 600,
+    height: 500,
     [theme.breakpoints.down('md')]: { height: '85%', marginTop: '25%' },
     background: '#00a4c555',
     margin: '20px'
@@ -56,14 +56,14 @@ const ItemsCard = ({ item, checked }) => {
             </Typography>
           </CardContent>
         </CardActionArea>
-        <CardActions>
+        {/* <CardActions>
           <Button size="small" color="primary">
             {item.button1}
           </Button>
           <Button size="small" color="primary">
             {item.button2}
           </Button>
-        </CardActions>
+        </CardActions> */}
       </Card>
     </Collapse>
   );

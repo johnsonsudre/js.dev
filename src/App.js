@@ -36,12 +36,12 @@ function App() {
     <Bounce />
     <Cover />
     <ItemsToVisit />
-    <Grid container className={classes.container}>
+    {/* <Grid container className={classes.container}>
       <Grid item className={classes.item}>100</Grid>
       <Grid item className={classes.item}>200</Grid>
       <Grid item className={classes.item}>300</Grid>
       <Grid item className={classes.item}>400</Grid>
-    </Grid>
+    </Grid> */}
   </div>
 }
 
