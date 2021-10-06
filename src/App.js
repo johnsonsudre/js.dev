@@ -1,6 +1,6 @@
 //import './App.css';
 import React from "react";
-import { CssBaseline, Grid, makeStyles } from "@material-ui/core";
+import { CssBaseline, makeStyles } from "@material-ui/core";
 import bg from "./static/dataClient/design/bg.jpg";
 import Cover from './components/Cover';
 import ItemsToVisit from "./components/ItemsToVisit";
